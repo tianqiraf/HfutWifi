@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.github.hfutwifi">
+
+    <PreferenceCategory
+        android:title="@string/proxy_cat"
+        android:enabled="false">
+
+        <com.github.hfutwifi.preferences.SummaryEditTextPreference
+            android:key="profileName"
+            android:persistent="false"
+            android:title="@string/profile_name"/>
+        <Preference
+            android:key="proxy"
+            android:persistent="false"
+            android:summary="@string/proxy_click"
+            android:title="@string/proxy"/>
+        <com.github.hfutwifi.preferences.NumberPickerPreference
+            android:key="remotePortNum"
+            android:persistent="false"
+            android:summary="@string/remote_port_summary"
+            android:title="@string/remote_port"
+            app:max="65535"
+            app:min="1"/>
+        <com.github.hfutwifi.preferences.NumberPickerPreference
+            android:key="localPortNum"
+            android:persistent="false"
+            android:summary="@string/port_summary"
+            android:title="@string/port"
+            app:max="65535"
+            app:min="1025"/>
+        <com.github.hfutwifi.preferences.PasswordEditTextPreference
+            android:inputType="textPassword"
+            android:key="sitekey"
+            android:persistent="false"
+            android:summary="@string/sitekey_summary"
+            android:title="@string/sitekey"/>
+        <com.github.hfutwifi.preferences.DropDownPreference
+            android:entries="@array/enc_method_entry"
+            android:entryValues="@array/enc_method_value"
+            android:key="encMethod"
+            android:persistent="false"
+            android:summary="%s"
+            android:title="@string/enc_method"/>
+        <com.github.hfutwifi.preferences.DropDownPreference
+            android:entries="@array/protocol_entry"
+            android:entryValues="@array/protocol_value"
+            android:key="protocol"
+            android:persistent="false"
+            android:summary="%s"
+            android:title="@string/protocol"/>
+        <com.github.hfutwifi.preferences.SummaryEditTextPreference
+            android:key="protocol_param"
+            android:summary="@string/protocol_param_summary"
+            android:title="@string/protocol_param"/>
+        <com.github.hfutwifi.preferences.DropDownPreference
+            android:entries="@array/obfs_entry"
+            android:entryValues="@array/obfs_value"
+            android:key="obfs"
+            android:persistent="false"
+            android:summary="%s"
+            android:title="@string/obfs"/>
+        <com.github.hfutwifi.preferences.SummaryEditTextPreference
+            android:key="obfs_param"
+            android:summary="@string/obfs_param_summary"
+            android:title="@string/obfs_param"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/feature_cat">
+
+        <!--hfutwifieferences.DropDownPreference
+            android:entries="@array/route_entry"
+            android:entryValues="@array/route_value"
+            android:key="route"
+            android:persistent="false"
+            android:summary="%s"
+            android:title="@string/route_list"
+            android:enabled="false"/-->
+        <SwitchPreference
+            android:key="isIpv6"
+            android:persistent="false"
+            android:summary="@string/ipv6_summary"
+            android:title="@string/ipv6"/>
+        <!--SwitchPreference
+            android:key="isProxyApps"
+            android:persistent="false"
+            android:summary="@string/proxied_apps_summary"
+            android:title="@string/proxied_apps"/-->
+        <SwitchPreference
+            android:key="isUdpDns"
+            android:persistent="false"
+            android:summary="@string/udp_dns_summary"
+            android:title="@string/udp_dns"/>
+        <com.github.hfutwifi.preferences.SummaryEditTextPreference
+            android:key="dns"
+            android:persistent="false"
+            android:summary="@string/dns_summary"
+            android:title="@string/dns"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/misc_cat">
+
+        <SwitchPreference
+            android:key="isAutoConnect"
+            android:persistent="false"
+            android:summary="@string/auto_connect_summary"
+            android:title="@string/auto_connect"/>
+        <Preference
+            android:key="recovery"
+            android:summary="@string/recovery_summary"
+            android:title="@string/recovery"/>
+        <Preference
+            android:key="ignore_battery_optimization"
+            android:summary="@string/ignore_battery_optimization_summary"
+            android:title="@string/ignore_battery_optimization"/>
+        <Preference
+            android:key="about"
+            android:title="@string/about"/>
+        <Preference
+            android:key="check_update"
+            android:title="@string/check_update"/>
+        <Preference
+            android:key="logcat"
+            android:title="Logcat"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

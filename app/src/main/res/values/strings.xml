@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HfutWifi</string>
+    <string name="quick_toggle">Toggle</string>
+
+    <!-- global/misc category -->
+    <string name="misc_cat">Misc</string>
+    <string name="profile">Profile</string>
+    <string name="profile_summary">Switch to another profile or add new profiles</string>
+    <string name="stat">Network Traffic</string>
+    <string name="stat_summary">Sent: \t\t\t\t\t%3$s\t↑\t%1$s/s\nReceived: \t%4$s\t↓\t%2$s/s</string>
+    <string name="stat_profiles">\n%1$s↑\t%2$s↓\t%3$sms\t%4$s</string>
+    <string name="traffic_summary">%1$s/s↑\t%2$s/s↓</string>
+    <plurals name="bytes" translatable="false">
+        <item quantity="one">Byte</item>
+        <item quantity="other">Bytes</item>
+    </plurals>
+    <string name="connection_test_pending">Check Connectivity</string>
+    <string name="connection_test_testing">Testing…</string>
+    <string name="connection_test_available">Success: %dms latency</string>
+    <string name="connection_test_error">Fail to detect internet connection: %s</string>
+    <string name="connection_test_fail">Internet Unavailable</string>
+    <string name="connection_test_error_status_code">Error code: #%d</string>
+
+    <!-- proxy category -->
+    <string name="proxy_cat">Server Settings</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="proxy">Server</string>
+    <string name="proxy_summary">Hostname or IP of the remote server</string>
+    <string name="remote_port">Remote Port</string>
+    <string name="remote_port_summary">%d</string>
+    <string name="port">Local Port</string>
+    <string name="port_summary">%d</string>
+    <string name="sitekey">Password</string>
+    <string name="sitekey_summary">Password of the remote server</string>
+    <string name="protocol">Protocol</string>
+    <string name="protocol_summary">Protocol you set in your server</string>
+    <string name="protocol_param">Protocol Param</string>
+    <string name="protocol_param_summary">Protocol param you input in your server</string>
+    <string name="obfs">Obfs</string>
+    <string name="obfs_summary">Obfs you selected in your server</string>
+    <string name="obfs_param">Obfs Param</string>
+    <string name="obfs_param_summary">Obfs param you put in your server</string>
+    <string name="enc_method">Encrypt Method</string>
+
+    <!-- feature category -->
+    <string name="feature_cat">Feature Settings</string>
+    <string name="ipv6">IPv6 Route</string>
+    <string name="ipv6_summary">Redirect IPv6 traffic to remote</string>
+    <string name="onetime_auth">One-time Authentication</string>
+    <string name="onetime_auth_summary">Enable one-time authentication</string>
+    <string name="http_proxy">HTTP Proxy</string>
+    <string name="http_proxy_summary">Local HTTP Proxy</string>
+    <string name="dns_proxy">DNS Proxy</string>
+    <string name="dns_proxy_summary">Redirect DNS queries to remote</string>
+    <string-array name="route_entry">
+        <item>All</item>
+    </string-array>
+    <string name="proxied_apps">Per-App Proxy</string>
+    <string name="proxied_apps_summary">Set proxy for selected apps, requires NAT mode under Android 4.x</string>
+    <string name="on">On</string>
+    <string name="bypass_apps">Bypass Mode</string>
+    <string name="bypass_apps_summary">Enable this option to bypass selected apps</string>
+    <string name="auto_connect">Auto Connect</string>
+    <string name="auto_connect_summary">Enable HfutWifi on startup</string>
+    <string name="udp_dns">UDP Forwarding</string>
+    <string name="udp_dns_summary">Forward UDP packets to remote</string>
+    <string name="dns">DNS</string>
+    <string name="dns_summary">The DNS server you want to use to resolve special domain,e.g. 8.8.8.8:53</string>
+    <!-- notification category -->
+    <string name="forward_success">HfutWifi started.</string>
+    <string name="invalid_server">Invalid server name</string>
+    <string name="service_failed">Failed to connect the remote server</string>
+    <string name="method_unsafe">WARNING: The current encryption method is unsafe</string>
+
+    <string name="stop">Stop</string>
+    <string name="stopping">Shutting down…</string>
+    <string name="vpn_error">%s</string>
+    <string name="reboot_required">Failed to start VPN service. You might need to reboot your device.</string>
+    <string name="quick_switch">Switch</string>
+
+    <!-- alert category -->
+    <string name="close">Close</string>
+    <string name="proxy_empty">\'Proxy\' and \'Password\' should not be empty</string>
+    <string name="connect">Connect</string>
+    <string name="initializing">Initializing…</string>
+    <string name="recovering">Resetting…</string>
+    <string name="loading">Loading…</string>
+    <string name="remove_profile">Remove this profile "%s"?</string>
+
+    <string name="dr">Duplicate Removal Add</string>
+
+    <!-- menu category -->
+    <string name="profiles">Profiles</string>
+    <string name="settings">Settings</string>
+    <string name="recovery">Reset</string>
+    <string name="recovery_summary">Reset all the background services</string>
+    <string name="ignore_battery_optimization">Request ignore battery optimizations</string>
+    <string name="ignore_battery_optimization_summary">Click to request trigger Ignore the battery optimization, to avoid background hiccups caused by hibernation when off screen, will increase the battery consumption, may not be triggered properly on some devices.</string>
+    <string name="about">About and Help</string>
+    <string name="about_title">HfutWifi %s</string>
+    <string name="check_update">Check Update</string>
+    <string name="new_version">Found new version! Please download and install manually</string>
+    <string name="is_new_version">Already the latest version</string>
+    <string name="update_failed">Failed to update</string>
+
+    <string name="add_profile">Add Profile</string>
+    <string name="action_apply_all">Apply Settings to All Profiles</string>
+    <string name="action_export">Export to Clipboard</string>
+    <string name="action_import">Import from Clipboard</string>
+    <string name="action_export_msg">Successfully exported profiles.</string>
+    <string name="action_export_err">Failed to export profiles!</string>
+    <string name="action_import_msg">Successfully imported profiles.</string>
+    <string name="action_import_err">Failed to import profiles!</string>
+    <string name="action_rss">Update from rss</string>
+    <string name="action_rss_err">Failed to update from rss</string>
+
+    <!-- profile -->
+    <string name="profile_manager_dialog">Profiles</string>
+    <string name="tips_dialog">Tips</string>
+    <string name="tips_dialog_content">&#8226; Click on the icon in the upper right corner to connect；\n&#8226; you can access the content of the campus network；\n&#8226;
+    disconnect when you are not using it.</string>
+    <string name="gotcha">Gotcha!</string>
+    <string name="add_profile_dialog">Add this HfutWifi profile?</string>
+    <string name="add_profile_methods_scan_qr_code">Scan QR code</string>
+    <string name="add_profile_methods_manual_settings">Manual Settings</string>
+    <string name="copy_url">Copy URL</string>
+    <plurals name="removed">
+        <item quantity="one">Removed</item>
+        <item quantity="other">%d items removed</item>
+    </plurals>
+    <string name="undo">Undo</string>
+
+    <string name="tips_testing">Testing...</string>
+    <string name="tips_sorting">Sorting...</string>
+    <string name="action_full_test">Full latency test</string>
+    <string name="ping">Ping</string>
+
+
+    <string name="add_profile_methods_wifi_sub">Add/Update HfutWifi Subscription</string>
+    <string name="wifisub_autoupdate_enable">Auto Update</string>
+    <string name="wifisub_add">Add URL</string>
+    <string name="wifisub_ok">Save and Update</string>
+    <string name="wifisub_list">Item List</string>
+    <string name="wifisub_error">Error: URL invaild or internet unavailable.</string>
+    <string name="wifisub_progres">Processing...</string>
+    <string name="wifisub_progres_text">Please wait...</string>
+    <string name="wifisub_toast_start">Updating subscriptions...</string>
+    <string name="wifisub_toast_success">Successfully updated subscriptions.</string>
+    <string name="wifisub_toast_fail">Failed to update subscriptions!</string>
+    <string name="group_name">Group Name</string>
+    <string name="proxy_click">Click on the group name to view its URL</string>
+    <string name="wifisub_remove_tip_title">Subscription removal</string>
+    <string name="wifisub_remove_tip">Delete this subscription without removing its nodes (nodes that bear its group name)?</string>
+    <string name="wifisub_remove_tip_direct">Delete the URL only</string>
+    <string name="wifisub_remove_tip_delete">Delete the nodes too</string>
+
+    <!-- tasker -->
+    <string name="toggle_service_state">Start the service</string>
+    <string name="start_service_default">Connect to the current server</string>
+    <string name="start_service">Connect to %s</string>
+    <string name="stop_service">Switch to %s</string>
+    <string name="profile_default">Use the current profile</string>
+
+    <!-- status -->
+    <string name="sent">Sent:</string>
+    <string name="received">Received:</string>
+
+    <!-- kcp -->
+    <string name="kcp_summary">启用KCP协议</string>
+    <string name="kcp_port">KCP端口</string>
+    <string name="kcp_port_summary">%d（远程KCPTUN服务器的端口号）</string>
+    <string name="kcpcli">KCP参数</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frontproxy_type_entry">
+        <item>http</item>
+        <item>socks4</item>
+        <item>socks5</item>
+    </string-array>
+
+    <string-array name="enc_method_entry">
+        <item>none</item>
+        <item>table</item>
+        <item>rc4</item>
+        <item>rc4-md5</item>
+        <item>rc4-md5-6</item>
+        <item>aes-128-cfb</item>
+        <item>aes-192-cfb</item>
+        <item>aes-256-cfb</item>
+        <item>aes-128-ctr</item>
+        <item>aes-192-ctr</item>
+        <item>aes-256-ctr</item>
+        <item>bf-cfb</item>
+        <item>camellia-128-cfb</item>
+        <item>camellia-192-cfb</item>
+        <item>camellia-256-cfb</item>
+        <item>salsa20</item>
+        <item>chacha20</item>
+        <item>chacha20-ietf</item>
+    </string-array>
+
+    <string-array name="enc_method_value">
+        <item>none</item>
+        <item>table</item>
+        <item>rc4</item>
+        <item>rc4-md5</item>
+        <item>rc4-md5-6</item>
+        <item>aes-128-cfb</item>
+        <item>aes-192-cfb</item>
+        <item>aes-256-cfb</item>
+        <item>aes-128-ctr</item>
+        <item>aes-192-ctr</item>
+        <item>aes-256-ctr</item>
+        <item>bf-cfb</item>
+        <item>camellia-128-cfb</item>
+        <item>camellia-192-cfb</item>
+        <item>camellia-256-cfb</item>
+        <item>salsa20</item>
+        <item>chacha20</item>
+        <item>chacha20-ietf</item>
+    </string-array>
+
+
+    <string-array name="protocol_entry">
+        <item>origin</item>
+        <item>verify_simple</item>
+        <item>verify_sha1</item>
+        <item>auth_sha1</item>
+        <item>auth_sha1_v2</item>
+	      <item>auth_sha1_v4</item>
+        <item>auth_aes128_sha1</item>
+        <item>auth_aes128_md5</item>
+        <item>auth_chain_a</item>
+        <item>auth_chain_b</item>
+        <item>auth_chain_c</item>
+        <item>auth_chain_d</item>
+        <item>auth_chain_e</item>
+        <item>auth_chain_f</item>
+    </string-array>
+
+    <string-array name="protocol_value">
+        <item>origin</item>
+        <item>verify_simple</item>
+        <item>verify_sha1</item>
+        <item>auth_sha1</item>
+        <item>auth_sha1_v2</item>
+	      <item>auth_sha1_v4</item>
+        <item>auth_aes128_sha1</item>
+        <item>auth_aes128_md5</item>
+        <item>auth_chain_a</item>
+        <item>auth_chain_b</item>
+        <item>auth_chain_c</item>
+        <item>auth_chain_d</item>
+        <item>auth_chain_e</item>
+        <item>auth_chain_f</item>
+    </string-array>
+
+
+    <string-array name="obfs_entry">
+        <item>plain</item>
+        <item>http_simple</item>
+        <item>http_post</item>
+        <item>tls_simple</item>
+        <item>tls1.2_ticket_auth</item>
+    </string-array>
+
+    <string-array name="obfs_value">
+        <item>plain</item>
+        <item>http_simple</item>
+        <item>http_post</item>
+        <item>tls_simple</item>
+        <item>tls1.2_ticket_auth</item>
+    </string-array>
+
+    <string-array name="route_value">
+        <item>all</item>
+    </string-array>
+
+</resources>
