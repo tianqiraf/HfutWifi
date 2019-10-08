@@ -1,5 +1,5 @@
 
-<p> 这是安卓版<a href="https://github.com/tianqiraf/HfutWifi">HfutWifi</a> 客户端</p>
+<p> 这是安卓版<a href="https://github.com/tianqiraf/HfutWifi">HfutWifi</a> 客户端(iOS暂不支持)</p>
 
 <p>软件使用Java编写，基于开源项目 <a href="https://github.com/shadowsocksrr/shadowsocks-rss/">ShadowsocksRR</a> </p>
 
