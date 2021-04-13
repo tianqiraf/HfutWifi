@@ -22,7 +22,7 @@
 <hr>
 <p> 欢迎访问我的<a href="https://blog.tianqiraf.cn">博客</a> 了解相关内容</p>
 <p> 欢迎加入群聊<a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=829714616&card_type=group&source=qrcode">829714616</a> 反馈相关问题</p>
-<p> 欢迎发送邮件至我的<a href="mailto: raf@tianqiraf.cn">邮箱</a>交流反馈</p>
+<p> 欢迎发送邮件至我的<a href="mailto: raf@tqraf.cn">邮箱</a>交流反馈</p>
 <hr>
 
 <p>This program is free software: you can redistribute it and/or modify
